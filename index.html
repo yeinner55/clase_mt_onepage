@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Tu Página One Page</title>
+    <style>
+        body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth; /* Añade desplazamiento suave al hacer clic en los enlaces de la barra de navegación */
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+section {
+    padding: 80px 0;
+    text-align: center;
+    color: #333;
+    opacity: 0.9;
+}
+
+.hero {
+    background-image: url('no.j');
+    background-size: cover;
+    color: #333;
+    position: relative;
+    z-index: 1;
+}
+
+.hero::after {
+    content: '';
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.services {
+    background-color: #f4f4f4;
+}
+
+.portfolio {
+    background-color: #e0e0e0;
+    position: auto;
+}
+
+.contact {
+    background-color: #ccc;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    box-shadow: 0px -2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.gustos{
+    width: 30%;
+    margin: 0 auto;
+}
+.imagen{
+    float: left;
+    
+}
+.imagen3{
+    float: right;
+    margin-right: 76%;
+    margin-top: -23%;
+}
+.imagen4{
+    float: right;
+    margin-right: -10%;
+}
+.imagen5{
+    float: left;
+    margin-left: -12%;
+    margin-top: 0% ;
+}
+
+
+			* {
+				margin:0px;
+				padding:0px;
+			}
+			
+			#header {
+				margin:auto;
+				width:500px;
+				font-family:Arial, Helvetica, sans-serif;
+			}
+			
+			ul, ol {
+				list-style:none;
+			}
+			
+			.nav > li {
+				float:left;
+			}
+			
+			.nav li a {
+				background-color:#000;
+				color:#fff;
+				text-decoration:none;
+				padding:10px 12px;
+				display:block;
+			}
+			
+			.nav li a:hover {
+				background-color:#434343;
+			}
+			
+			.nav li ul {
+				display:none;
+				position:absolute;
+				min-width:140px;
+			}
+			
+			.nav li:hover > ul {
+				display:block;
+			}
+			
+			.nav li ul li {
+				position:relative;
+			}
+			
+			.nav li ul li ul {
+				right:-140px;
+				top:0px;
+			}
+            .MENI{
+                float: right;
+                margin-right: -25%;
+            }
+
+        .ba{
+            float: left;
+        }
+			.SE{
+                float: right;
+                margin-right: -10%;
+            }
+            .jo{
+                margin-top: 5%;
+            }
+            .hi{
+                float: left;
+                margin-top: -20%;
+            }
+            
+    </style>
+</head>
+<body>
+    <header>
+      <CENTER>        <h1>MI HOJA DE VIDA</h1></CENTER>
+     <div  class="MENI">
+        <div id="header">
+			<ul class="nav">
+				
+				<li><a href="">MENU</a>
+					<ul>
+                     
+                            <li><a href="#section1">DATOS PERSONALES</a></li>
+                            <li><a href="#section2">PRESENTACION PERSONAL</a></li>
+                            <li><a href="#section3">GUSTOS E INTERESES</a></li>
+                            <li><a href="#section4">PROYECTOS </a></li>
+                            <li><a href="#section5">ESTUDIOS </a></li>
+                            <li><a href="#section6">PORTAFOLIO</a></li>
+                        </ul>
+     </div>
+    </header>
+
+    <section id="section1" class="hero">
+        <div class="container">
+            <font size="4"><br><br><BR><BR><BR><BR> NOMBRE: Yeinner José Orosco López<br><br>
+            DIRECCION: Calle 101b # 33dd-44<br><br>
+            E-MAIL: oroscoyeinner55@gmail.com<br><br>
+            FECHA DE NACIMIENTO: 14 de febrero del 2008<br><br>
+            EDAD: 16 años<br><br>
+            DOCUMENTO DE IDENTIDAD: 1102718836
+            </font>
+
+        </div>
+        <div class="hi">
+            <img src="WhatsApp Image 2024-03-11 at 13.19.25_1fd6fa7f.jpg" width="300px" height="300px">
+
+        </div>
+    </section>
+
+    <section id="section2" class="services">
+        <div class="container">
+            <br><br>
+            <h2>MI PRESENTACION PERSONAL</h2>
+            <p>EN ESTA SECCION ENCONTRARAN UN VIDEO DONDE ME VOY A PRESENTAR Y CONOCERAN A FONDO UN POCO MAS DE MI</p>
+            <center><video src="presentacion.mp4" controls autoplays></video></center>
+        </div>
+    </section>
+
+    <section id="section3" class="portfolio">
+        <div class="gustos">
+        
+            <h2>GUSTOS</h2>
+            <p>EN ESTA SECCION VAN A ENCONTRAR LO QUE ME APASIONA</p>
+          <div class="imagen">
+            <img src="CAMIONETA.jpeg"><br>
+            las camionetas ya que ver como son capases de pasar por<br>
+             el barro, lodo, y tierra me encanta<br>
+            Tambien lo que me agrada es estas camionesta es su diseños,<br>
+             la fuerza que tiene
+          </div>
+        </div>
+<center>          <div class="imagen2">
+    <img src="programacion.jpeg"><br>
+    lo que me agrada de la programacion es ver que<br>
+     una pagina que vemos tiene mucho codigo<br>
+    puede ser muy dificil programar por los codigos en<br>
+     derdad es algo que me APASIONA
+
+  </div></center>
+          <div class="imagen3">
+          <img src="atardeceres.jpeg"><br>
+          los atardeceres me agradan porque me gusta ver <br>
+          como se combinan los colores en el cielo, la paz que <br>
+          me transmite y como un ser supremo puede crear cosas tan bonitas
+          </div>
+        </div>
+    </section>
+
+    <section id="section4" class="contact">
+        <div class="container">
+            <h2>PROYECTOS</h2>
+            <p>¡aqui van a conocer lo que quiero lograr con el tiempo</p>
+           <center>
+            <div class="imagen4">
+                <img src="GRADUACION.jpeg"><br>
+                culminar mis estudios academicos y universitarios
+            </div>
+           </center>
+           <div class="imagen5">
+    <img src="casas.jpeg"><br>
+    comprarme una casa para mi y una para mi madre
+</div>
+            <div class="imagen6">
+                <img src="empresas.jpeg" ><br>
+                tener mi propia empresa de programacion
+            </div>
+        </div>
+    </section>
+    <section id="section5" class="contact">
+        <div class="container">
+            <h2>ESTUDIOS</h2>
+            <p>AQUI VAN A CONOCER LOS DIPLOMAS QUE VOY A TENER A FIN DEL AÑO 2024</p>
+<div class="ba">
+    <img src="BACHILLER.jpeg"><br>
+    diploma de bachiller
+</div>
+            <div class="SE">
+                <img src="SE.jpeg"><br>
+                Diploma de programador de software
+            </div>
+<center>            <div class="jo">
+    <img src="jovenes.png"><br>
+    una beca que me gane de desarrollo de software
+</div></center>
+        </div>
+        <br><br><br><br><br><br>
+    </section>
+    
+    <section id="section6" class="contact">
+        <div class="container">
+            <h2>PORTAFOLIO</h2>
+            <p>¡Pronto encontraras los proyectos que llevo hasta el momento!</p>
+        </div>
+    </section>
+
+
+</body>
+</html>
